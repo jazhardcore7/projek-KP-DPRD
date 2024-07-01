@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Custom navbar style */
+.navbar-custom {
+    background-color: #0f2b46; /* Dark gray background color */
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff; /* White text color */
+    font-size: 1.25rem; /* Larger font size */
+    margin-right: 20px; /* Increased space between links */
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Hover color for links */
+}
+.navbar-custom .navbar-brand {
+    color: #d9b0e5; /* Brand color */
+    font-size: 1.5rem; /* Larger brand font size */
+    display: flex; /* Flexbox to align image and text */
+    align-items: center; /* Center align items */
+}
+.navbar-custom .navbar-brand .brand-text {
+    display: flex;
+    flex-direction: column; /* Stack text in two rows */
+    line-height: 1.1; /* Adjust line height for rows */
+}
+.navbar-custom .navbar-brand .brand-text .line {
+    margin: 0; /* Remove margin */
+}
+.navbar-custom .navbar-brand .brand-text .subtitle {
+    margin-left: 10px; /* Move subtitle slightly to the right */
+}
+.navbar-custom .navbar-brand img {
+    margin-right: 10px; /* Space between image and text */
+    height: 40px; /* Adjust image height */
+}
+.navbar-custom .navbar-brand:hover {
+    color: #ffffff; /* Hover color for brand */
+}
+.navbar-custom .navbar-toggler {
+    border-color: #ffcc00; /* Custom color for toggler button border */
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28%255, %204255, %2055, %201%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 70vh; /* Set minimum height for the card */
+}
+
+.bg-primary {
+    background-color: #5bc0de !important;
+}
+
+.img-fluid {
+    max-height: 200px;
+}
+
+h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #003366;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #002244;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-gutters {
+    height: 100%;
+}
+
+.bg-white {
+    border-radius: 10px;
+}
+
+.bg-white h5, .bg-white .form-control, .bg-white .btn-primary, .bg-white a {
+    color: #232965;
+}
+
+.bg-white .btn-primary {
+    background-color: #003366;
+    border: none;
+}
+
+.bg-white .btn-primary:hover {
+    background-color: #002244;
+}
+
+.bg-primary .container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}

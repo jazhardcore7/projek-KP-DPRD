@@ -1,0 +1,158 @@
+body, html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    margin: 0;
+    background-color: #E7E3F3;
+}
+
+#sidebar {
+    background-color: #070F2B;
+    width: 290px;
+    transition: width 0.3s;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1; /* Ensure sidebar is above content */
+}
+
+#sidebar.collapsed {
+    width: 60px;
+}
+
+#sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: padding 0.3s;
+}
+
+#sidebar.collapsed .nav-link {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Ensure sidebar content is styled appropriately */
+#sidebar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #001f3f; /* Example background color */
+    color: #ffffff; /* Text color */
+}
+
+#sidebar .nav-link span {
+    margin-left: 10px;
+}
+
+#sidebar.collapsed .nav-link span {
+    display: none;
+}
+
+#content {
+    transition: margin-left 0.3s;
+    margin-left: 290px; /* Initially set to sidebar width */
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+}
+
+#content.collapsed {
+    margin-left: 60px; /* Adjusted margin when sidebar is collapsed */
+}
+
+.hamburger-icon::before {
+    content: '\2630'; /* Unicode for hamburger icon */
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+.text-beside-icon {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-beside-icon span {
+    display: block;
+    margin-left: 10px;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.sidebar-header .logo {
+    margin-right: 10px;
+}
+
+.sidebar-header .title {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#sidebar.collapsed .sidebar-header .title {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        height: 100%;
+        z-index: 1000;
+    }
+
+    #content {
+        margin-left: 60px;
+    }
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+#sidebar.collapsed .profile-section {
+    display: none;
+}
+
+#sidebar.collapsed .footer-section {
+    display: none;
+}
+
+.profile-section .profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-section .profile-info img {
+    margin-right: 10px;
+}
+
+/* Define hover state for nav-link */
+.nav-link:hover {
+    background-color: #0056b3; /* Your desired highlight color */
+    color: white; /* Ensure text remains visible */
+}
+
+/* Define active state for nav-link */
+.nav-link.active {
+    background-color: #0056b3; /* Same highlight color as hover */
+    color: white; /* Ensure text remains visible */
+}
