@@ -106,7 +106,7 @@
                     <img src="{{asset('assets/img/hero.png')}}" alt="" class="img-fluid bg-white" style="height: 80px; border-radius:50%">
                     <p class="text-white mb-0" style="margin-top: 10px;">© Sistem Arsip Inaktif Digital 2024</p>
                     <p class="text-white mb-0">All Rights Reserved</p>
-                    <p><a href="pembuat.html" class="text-white">Creators</a></p>
+                    <p><a href="/creator-adm" class="text-white">Creators</a></p>
                 </div>
             </div>
         </div>

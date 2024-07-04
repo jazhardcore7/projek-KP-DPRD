@@ -35,15 +35,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p>Website ini dibuat sebagai Proyek Akhir Kerja Praktik yang dilaksanakan di Sekretariat DPRD Sumatera Selatan divis dalam periode 3 Juni - 5 Juli 2024 </p><br>
+                <p>Website ini dibuat sebagai Proyek Akhir Kerja Praktik yang dilaksanakan di Sekretariat DPRD Sumatera Selatan Bagian Record Center dalam periode 3 Juni - 5 Juli 2024 </p><br>
                 <p>&copy; 2024 Sistem Arsip Inaktif Digital DPRD Sumatera Selatan. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-md-right ml-auto">
                 <p>Dibuat oleh:</p>
                 <ul class="list-unstyled">
-                    <li>Ahmad Bintara Mansur <span class="text-secondary">(Front-end)</span> <a href="https://instagram.com/jazhardcore" target="_blank" class="text-white link-primary">Instagram</a></li>
-                    <li>Reynaldi Ashari <span class="text-danger">(Back-end)</span> <a href="https://instagram.com/aldiashari_" target="_blank" class="text-white">Instagram</a></li>
-                    <li>Rizki Pebrian <span class="text-success">(Database)</span> <a href="https://www.instagram.com/kikriyuki/" target="_blank" class="text-white">Instagram</a></li>
+                    <li>Ahmad Bintara Mansur <span class="text-secondary">(09021282227041)</span> <a href="https://instagram.com/jazhardcore" target="_blank" class="text-white link-primary">Instagram</a></li>
+                    <li>Reynaldi Ashari <span class="text-secondary">(09021282227038)</span> <a href="https://instagram.com/aldiashari_" target="_blank" class="text-white">Instagram</a></li>
+                    <li>Rizki Pebrian <span class="text-secondary">(09021282227046)</span> <a href="https://www.instagram.com/kikriyuki/" target="_blank" class="text-white">Instagram</a></li>
                 </ul>
             </div>
         </div>

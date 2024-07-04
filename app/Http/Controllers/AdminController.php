@@ -226,12 +226,14 @@ class AdminController extends Controller
     }
 
     public function showusers()
-    {
-        $username = Auth::user()->username;
-        $data = User::where('username', $username)->first();
-        $showuser = User::where('role', 'User')->get();
-        return view('admin.showuser', compact('data', 'showuser'));
-    }
+{
+    $username = Auth::user()->username;
+    $data = User::where('username', $username)->first();
+    // Mengambil semua pengguna dengan peran 'Admin' atau 'User'
+    $showuser = User::whereIn('role', ['Admin', 'User'])->get();
+    return view('admin.showuser', compact('data', 'showuser'));
+}
+
 
     public function logout()
     {

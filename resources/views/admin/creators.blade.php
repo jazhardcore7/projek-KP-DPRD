@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <a href="/logins" class="contact-button">Kembali</a>
+            <a href="/dashboardadm" class="contact-button">Kembali</a>
         </div>
     </div>
 

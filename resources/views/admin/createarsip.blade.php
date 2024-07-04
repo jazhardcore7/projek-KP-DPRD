@@ -4,10 +4,18 @@
     <title>Create Archive</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets/img/logodprd.png')}}" type="image/x-icon">
+    <style>
+        .top{
+            margin-top: 190px;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
-        <h2>Create Archive</h2>
+        <div class="top"><h2>Create Archive</h2></div>
+        <a href="/arsipadm"><button class="btn btn-danger">Kembali</button></a>
+        <p>Anda Bisa Mengupload Arsip anda disini !</p>
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -52,7 +60,7 @@
             </div>
             <div class="form-group">
                 <label for="uploader">Uploader:</label>
-                <input type="text" class="form-control" id="uploader" name="uploader" required>
+                <input type="text" class="form-control" id="uploader" name="uploader" value="{{ Auth::user()->name }}" required readonly>
             </div>
             <div class="form-group">
                 <label for="file">File:</label>

@@ -41,3 +41,9 @@ Route::get('/arsipuser', [\App\Http\Controllers\UserController::class, 'arsipuse
 Route::get('/creators', function () {
     return view('user.creators');
 })->name('creators');
+Route::get('/creator-log', function () {
+    return view('logins.creators');
+})->name('creators');
+Route::get('/creator-adm', function () {
+    return view('admin.creators');
+})->name('creators');

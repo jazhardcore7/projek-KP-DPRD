@@ -35,7 +35,7 @@
                     <a class="nav-link" href="">Arsip</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Tentang</a>
+                    <a class="nav-link" href="/creator-log">Tentang</a>
                 </li>
             </ul>
         </div>

@@ -115,6 +115,7 @@
                 </li>
             </ul>
             <div class="mt-auto profile-section">
+            <div class="mt-auto profile-section">
                 <div class="profile-info fs-6" style="margin-left:7%">
                     @if($data)
                     <img src="{{ asset('storage/data/' . $data->gambar) }}" alt="Profile" class="rounded-circle" style="height: 60px;">
@@ -124,11 +125,13 @@
                     </div>
                     @endif
                 </div>
+</div>
+
                 <div class="text-center mt-3 footer-section si-copy fs-16">
                     <img src="{{asset('assets/img/hero.png')}}" alt="" class="img-fluid bg-white" style="height: 80px; border-radius:50%">
                     <p class="text-white mb-0" style="margin-top: 10px;">© Sistem Arsip Inaktif Digital 2024</p>
                     <p class="text-white mb-0">All Rights Reserved</p>
-                    <p><a href="pembuat.html" class="text-white">Creators</a></p>
+                    <p><a href="/creator-log" class="text-white">Creators</a></p>
                 </div>
             </div>
         </div>
@@ -157,6 +160,9 @@
                                         {{ session()->get('alert') }}
                                     </div>
                                     @endif
+                                    <div class="card-footer">
+                        <a href="/createarsip" class="btn btn-primary btn-block">Create Arsip</a>
+                    </div>
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
@@ -203,9 +209,6 @@
                                     </div>
                                 @endforelse
                     </table>
-                    <div class="card-footer">
-                        <a href="/createarsip" class="btn btn-primary btn-block">Create Arsip</a>
-                    </div>
                 </div>
             </div>
             

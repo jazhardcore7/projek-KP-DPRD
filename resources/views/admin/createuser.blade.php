@@ -27,15 +27,19 @@
             </div>
             <div class="form-group">
                 <label for="role">Role</label>
-                <input type="text" class="form-control" id="role" name="role" required>
+                <select class="custom-select" id="role" name="role" required>
+                    <option value="" disabled selected>Pilih Role</option>
+                    <option value="Admin">Admin</option>
+                    <option value="User">User</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="password" required>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan Password anda" title="Type password here" required>
             </div>
             <div class="form-group">
                 <label for="confirm_password">Confirm Password</label>
-                <input type="password" class="form-control" id="confirm_password" name="password_confirmation" required>
+                <input type="password" class="form-control" id="confirm_password" name="password_confirmation" placeholder="Konfirmasi Password anda" title="Re-enter password here" required>
             </div>
             <button type="submit" class="btn btn-primary">Create</button>
         </form>
