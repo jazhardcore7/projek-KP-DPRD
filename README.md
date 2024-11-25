@@ -25,4 +25,4 @@ To set up this project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/repo-name.git
+   git clone https://github.com/jazhardcore7/projek-KP-DPRD.git
