@@ -1,4 +1,4 @@
-# Archive Management Information System
+# Digital Archive Management Information System
 
 ## Project Overview
 
