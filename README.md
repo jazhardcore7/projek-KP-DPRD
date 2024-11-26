@@ -2,7 +2,12 @@
 
 ## Project Overview
 
-This project is a prototype and planning phase of an Information System designed to manage archived files in the Record Center of DPRD Sumatera Selatan. The goal of this system is to streamline the process of archiving, retrieving, and managing documents, thereby enhancing efficiency and accessibility for users.
+This project is a prototype and planning phase of an Information System designed to manage archived files in the Record Center of DPRD Sumatera Selatan. The goal of this system is to streamline the process of archiving, retrieving, and managing documents, thereby enhancing efficiency and accessibility for users. This project is used as a Requirement to pass "Kerja Praktek" class in Informatics ,Computer Science, Sriwijaya University
+
+## Creator
+09021282227041_Ahmad Bintara Mansur (Front-end)
+09021282227038_Reynaldi Ashari (Back-end)
+09021282227046_Rizki Pebrian (Database)
 
 ## Features
 
@@ -10,6 +15,7 @@ This project is a prototype and planning phase of an Information System designed
 - **Document Upload**: Functionality to upload new archived files into the system.
 - **Search and Retrieval**: Easy search options to quickly find and retrieve archived documents.
 - **File Management**: Tools for organizing, updating, and deleting archived files.
+- **Profile Page**: Way for user to costumize their profile
 - **Responsive Design**: Ensures usability on desktops, tablets, and smartphones.
 
 ## Technologies Used
